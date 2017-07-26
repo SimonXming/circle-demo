@@ -1,7 +1,7 @@
 <template>
   <div>
   <el-row :gutter="0" style="margin-top: 50px">
-     <el-col :span="16" :offset="4">
+     <el-col :span="18" :offset="3">
       <el-table
         :data="repoList"
         border
@@ -9,7 +9,7 @@
         <el-table-column
           prop="remote_id"
           label="🆔"
-          width="50">
+          width="80">
         </el-table-column>
        <el-table-column
           prop="owner"
@@ -29,7 +29,7 @@
         <el-table-column
           prop="clone_url"
           label="clone_url"
-          width="300">
+          width="400">
         </el-table-column>
         <el-table-column label="操作">
           <template scope="scope">
